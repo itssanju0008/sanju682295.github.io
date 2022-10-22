@@ -1,0 +1,37 @@
+.menu-list>ul{
+    text-decoration: none;
+}
+.menu-icon{
+    display: none;
+}
+.menu-list{
+    position: fixed;
+    
+    color:black;
+    background-color: white;
+    display: none;
+    border-radius: 12px;
+    padding: 20px 10px 20px 10px;
+    right:17px;
+    z-index: 100;
+}
+.menu-list p{
+    margin-top: 10px;
+}
+.menu-list{
+    text-decoration: none;
+}
+#burgir:hover>div{
+    display: block;
+}
+
+.menu-list>ul>p:hover{
+color: red;
+text-decoration: none;
+cursor: pointer;
+}
+@media (max-width:767px){
+    .menu-icon{
+        display: block;
+    }
+}
