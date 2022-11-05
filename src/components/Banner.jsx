@@ -19,6 +19,7 @@ MERN stack.Passionate about coding and intensely
 interested in working in a product-based company.
 
             </p>
+           
           </div>
         </div>
       </div>

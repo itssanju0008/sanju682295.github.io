@@ -22,11 +22,11 @@ const Menu=()=>{
 </svg>
 <div className='menu-list'>
 <ul style={{textDecoration:"none"}}>
-    <p >Home</p>
-    <p>Project</p>
-    <p>Skills</p>
-    <p>Contact</p>
-    <p>Resume</p>
+    <a href="#banner">Home</a><br />
+    <a href="#projects">Project</a><br />
+    <a href="#skills">Skills</a><br />
+    <a href="#contact">Contact</a><br />
+    <a  target="_blank" href="resume.pdf" download='Sanjeev Singh'>Resume</a>
 </ul>
                 </div>
                 </div>

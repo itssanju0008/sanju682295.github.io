@@ -13,10 +13,12 @@
     border-radius: 12px;
     padding: 20px 10px 20px 10px;
     right:17px;
+    top:40px;
     z-index: 100;
 }
-.menu-list p{
+.menu-list a{
     margin-top: 10px;
+    color: black;
 }
 .menu-list{
     text-decoration: none;
@@ -25,7 +27,7 @@
     display: block;
 }
 
-.menu-list>ul>p:hover{
+.menu-list>ul>a:hover{
 color: red;
 text-decoration: none;
 cursor: pointer;

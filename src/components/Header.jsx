@@ -40,7 +40,7 @@ function Header() {
           <a className="link" href="#contact">
             Contact
           </a>
-          <a className="link" target="_blank" href="https://drive.google.com/file/d/1cBdCxa0VSWFCFBgX80jegqT5tG0KOqjw/view?usp=sharing">
+          <a className="link" target="_blank" href="resume.pdf" download='Sanjeev Singh'>
             Resume
           </a>
         </div>
@@ -65,7 +65,7 @@ function Header() {
         <a className="link" onClick={() => setActive(!active)} href="#contact">
           Contact
         </a>
-        <a className="link" onClick={() => setActive(!active)} href="https://drive.google.com/file/d/1cBdCxa0VSWFCFBgX80jegqT5tG0KOqjw/view?usp=sharing">
+        <a className="link" download='Sanjeev Singh' onClick={() => setActive(!active)} href="resume.pdf">
           Resume
         </a>
       </div>

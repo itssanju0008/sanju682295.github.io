@@ -15,6 +15,10 @@
     transform: translateZ(20px);
    
 }
+#projects{
+    text-align: center;
+}
+
 .project-container img{
     height: 160px;
 
