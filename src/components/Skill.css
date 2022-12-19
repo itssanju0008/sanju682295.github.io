@@ -23,6 +23,9 @@
     gap: 70px;
     margin-bottom: 40px;
 }
+#skills>h1{
+    font-size: 25px;
+}
 .skillcontainer1>div{
     display: flex;
     flex-direction: column;
@@ -53,6 +56,22 @@
     gap: 70px;
     margin-bottom: 40px;
 }
+svg:hover{
+   color: red;
+}
+.skillcontainer1>div:hover{
+    color: red;
+    border: 1px solid white;
+}
+.skillcontainer2>div:hover{
+    color: red;
+    border: 1px solid white;
+}
+.skillcontainer3>div:hover{
+    color: red;
+    border: 1px solid white;
+}
+
 @media (max-width: 767px){
     .skillcontainer3,.skillcontainer1,.skillcontainer2{
        

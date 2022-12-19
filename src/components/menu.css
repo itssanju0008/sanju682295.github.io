@@ -5,15 +5,14 @@
     display: none;
 }
 .menu-list{
-    position: fixed;
-    
+    position: relative;
     color:black;
     background-color: white;
     display: none;
     border-radius: 12px;
     padding: 20px 10px 20px 10px;
-    right:17px;
-    top:40px;
+    top:60px;
+    left: -100px;
     z-index: 100;
 }
 .menu-list a{
@@ -22,6 +21,7 @@
 }
 .menu-list{
     text-decoration: none;
+    width: 50vw;
 }
 #burgir:hover>div{
     display: block;
@@ -35,5 +35,10 @@ cursor: pointer;
 @media (max-width:767px){
     .menu-icon{
         display: block;
+        height: max-content;
+        width: max-content;
+        margin-top: 10px;
     }
+
+    
 }

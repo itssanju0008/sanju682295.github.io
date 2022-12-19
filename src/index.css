@@ -24,7 +24,7 @@ body {
 }
 .container,
 .header-inner {
-  max-width: 1200px;
+  max-width: 100vw;
   padding: 0px 20px;
   width: 100%;
   margin: auto;
@@ -42,49 +42,6 @@ body {
 img {
   width: 100%;
 }
-header {
-  height: 100px;
-}
-header.sticky {
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
-  z-index: 10;
-  transition: 0.3s;
-  position: sticky;
-  top: 0;
-  background: var(--dark-light);
-  height: 70px;
-}
-header .header-inner {
-  width:100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100%;
-}
-.header-inner .logo {
-  font-size: 30px;
-  line-height: 40px;
-  color: var(--red-text);
-  font-weight: 900;
-}
-.header-inner .link {
-  margin-right: 30px;
-  color: var(--light);
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 700;
-  transition: 0.3s;
-}
-.header-inner .link:hover {
-  color: var(--red-text);
-}
-header .menu {
-  display: none;
-}
-header .mobile-links {
-  display: none;
-}
-
 /* =========== Banner */
 .banner .banner-wrapper {
   height: calc(100vh - 120px);
@@ -138,41 +95,7 @@ header .mobile-links {
 }
 
 @media (max-width: 767px) {
-  header .links {
-    display: none;
-  }
-  header .menu {
-    display: block;
-    font-size: 20px;
-    cursor: pointer;
-  }
-  header .mobile-links.active {
-    position: fixed;
-    top: 70px;
-    right: 0;
-    width: 250px;
-    transition: 0.3s;
-    display: block;
-    display: flex;
-    flex-direction: column;
-    background: var(--dark-light);
-    bottom: 0;
-    padding: 100px 40px;
-    z-index: 9;
-  }
-  header .mobile-links.active a {
-    font-size: 20px;
-    margin-bottom: 20px;
-    color: var(--red-text);
-    line-height: 30px;
-    transition: 0.3s;
-    display: inline;
-    padding-bottom: 3px;
-    border-bottom: 2px solid transparent;
-  }
-  header .mobile-links.active a:hover {
-    border-color: var(--red-text);
-  }
+ 
   .banner .banner-wrapper {
     flex-wrap: wrap;
     height: auto;

@@ -1,11 +1,9 @@
 import "./Skill.css";
-const frontend = ["JavaScript", "React", "HTML", "Chakra UI", "CSS"];
-const backend = ["Node", "express", "MongoDB"];
-const tools = ["VS Code", "Git", "Postman"];
+
 const Skills = () => {
   return (
     <section className="skillcontainer" id="skills">
-        <h1>My Skills</h1>
+        <h1 >About My Skills</h1>
       <h2>Frontend Skills</h2>
       <div className="skillcontainer1">
         <div>
